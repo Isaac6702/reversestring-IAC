@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse String</title>    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invertir texto</title>
+
+    <!-- Estilos muy básicos; quítalos o cámbialos a tu gusto -->
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 2rem; }
+      label, input, button { font-size: 1rem; }
+      input { width: 100%; max-width: 400px; margin: 0.5rem 0; }
+      #resultado { margin-top: 1rem; font-weight: bold; }
+    </style>
 </head>
+
 <body>
+<h1>Inversor de cadenas</h1>
+
+<label for="cadena">Introduce texto:</label>
+<input id="cadena" type="text" placeholder="Escribe algo…" />
+
+<button id="invertir">Invertir</button>
+
+<p id="resultado"></p>
+
+<!-- Lógica JavaScript externa -->
 <script src="script.js"></script>
 </body>
 </html>
